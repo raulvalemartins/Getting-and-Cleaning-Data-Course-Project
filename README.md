@@ -29,22 +29,22 @@ Create one R script called run_analysis.R that does the following:
 
 3. Run the function 'run_analysis.R'
 
-## How the functions works
+## How the function works
 
-### Step 1
+#### Step 1
 Reads all files at once
 
-### Step 2        
+#### Step 2        
 Calculates the features to be included in the final result
 
-### Step 3
+#### Step 3
 Process xtest data by removing all the columns that are not to be inclued, and introduces the subject and activities columns.
 
-### Step 4
+#### Step 4
 Process xtrain data by removing all the columns that are not to be inclued, and introduces the subject and activities columns.
         
-### Step 5
+#### Step 5
 Merge/union of xtest and xtrain data
 
-### Step6
+#### Step6
 Calculates the aggregates and write the table that cover the step 5 of the peer assessment and finally return the caculated data.
